@@ -18,7 +18,7 @@
   </head>
   <body>
     <section>
-      <div class="container">
+      <div class="container" style="margin-top: 30px;">
         <div class="row">
           <div class="col-6">
             <h6>Name</h6>
@@ -26,21 +26,29 @@
           </div>
           <div class="col-6">
             <h6>Gender</h6>
-            <button class="btn-style-one"><i class="fa fa-mars"></i> Male</button>
-            <button class="btn-style-one"><i class="fa fa-venus"></i> Female</button>
-            <button class="btn-style-one"><i class="fa fa-transgender"></i> Others</button>
+          <div class="row">
+            <div class="col-4">
+              <button class="btn-style-one fonts-style"><i class="fa fa-mars"></i> Male</button>
+             </div>
+              <div class="col-4">
+                <button class="btn-style-one fonts-style"><i class="fa fa-venus" ></i> Female</button>
+              </div>
+              <div class="col-4">
+                <button class="btn-style-one fonts-style"><i class="fa fa-transgender" ></i> Others</button>
+              </div>
+          </div>
           </div>
         </div>
       </div>
     </section>
     <section>
-      <div class="container">
+      <div class="container" style="margin-top: 20px;">
         <div class="row">
           <!-- <label for="cars">Choose a car:</label> -->
           <h6>Select your skill from the list</h6>
         
            <div class="container">
-            <select name="skill" id="skill">
+            <select name="skill" id="skill"> 
               <option value="Web Design">Web Design</option>
               <option value="Accounting & Management">Accounting & Management</option>
               <option value="Research">Research</option>
@@ -51,24 +59,24 @@
       </div>
     </section>
     <section>
-      <div class="container">
+      <div class="container" style="margin-top: 20px;">
         <div class="row">
           <div class="col-6">
-            <h6 >Email Address <button style="float: right;" class="btn-style">Set as User Id</button></h6>
-            <input type="text" placeholder="Email Address"class="input-style">
+            <h6><span class="ma">Email Address</span> <button style="float: right;" class="btn-style fontss-style">Set as User Id</button></h6>
+            <input type="text" placeholder="Email Address"class="input-style"  style="margin-top: 10px;">
           </div>
           <div class="col-6">
-            <h6 >Mobile Number <button style="float: right;" class="btn-style">Set as User Id</button></h6>
-            <div class="row">
+            <h6><span class="ma">Mobile Number</span><button style="float: right;" class="btn-style fontss-style">Set as User Id</button></h6>
+            <div class="row" style="margin-top: 17px;">
               <div class="col-6">
-                <select name="no" id="no" style="padding-bottom: 5px;">
-                  <option value="+088">  	&#160;	&#160;	&#160; 	&#160;  Bangladesh (88) 	&#160; 	&#160;	&#160;	&#160;  </option>
-                  <option value="+099">	&#160;	&#160;	&#160; 	&#160; India (99)	&#160;	&#160;	&#160; 	&#160; </option>
-                  <option value="+789">	&#160;	&#160;	&#160; 	&#160; USA (87)	&#160;	&#160;	&#160; 	&#160; </option>
+                <select name="no" id="no" style="padding-bottom: 5px;" class="fonts-style">
+                  <option value="+088" class="fonts-style">   Bangladesh (88)  </option>
+                  <option value="+099" class="fonts-style"> India (99) </option>
+                  <option value="+789" class="fonts-style"> USA (87)	</option>
                 </select>
               </div>
               <div class="col-6">
-                <input type="text" placeholder="Your phone number" class="input-style">
+                <input type="text" placeholder="Your phone number" class="input-style fonts-style">
               </div>
             </div>
           </div>
@@ -76,13 +84,13 @@
       </div>
     </section>
     <section>
-      <div class="container">
+      <div class="container" style="margin-top: 20px;">
         <h6>Password</h6>
           <div class="row">
-            <div class="col-lg-6">
-              <input type="text" placeholder="Your Name" class="input-style">
+            <div class="col-6">
+              <input type="text" placeholder="Password" class="input-style">
             </div>
-            <div class="col-lg-6">
+            <div class="col-6 ">
               <input type="text" placeholder="Retype Password" class="input-style">
             </div>
           </div>
@@ -91,7 +99,7 @@
     </section>
    
     <section>
-      <div class="container">
+      <div class="container" style="margin-top: 30px;">
         <div class="row">
           <form action="?" method="POST">
             <div class="g-recaptcha" data-sitekey="6LcStt8aAAAAADIpuZ9G1iT37_0P4YK8v6NoiN2n"></div>
@@ -102,11 +110,11 @@
       </div>
     </section>
     <section>
-      <div class="container">
+      <div class="container" style="margin-top: 20px; margin-bottom: 30px !important;">
         <div class="row">
               <div class="check-box">
-                <input type="checkbox" id="policy" name="" value="">
-                <label for="policy" style="margin-left: 4px;">I agree to the BdJobs.com terms of use <span style="color: blue;">Terms & Conditions</span></label>
+                <input type="checkbox" id="policy" name="" value="" style="width: 10px; height: 10px;">
+                <label for="policy" style="margin-left: 4px;" class="fonts-style">I agree to the BdJobs.com terms of use <span style="color: blue;">Terms & Conditions</span></label>
               </div>
       </div>
     </section>

@@ -12,9 +12,38 @@ body{
     width: 100%;
 }
 .btn-style-one{
-    width: 32.5%;
+    width: 100%;
     border: 1px solid blue;
     background-color: white;
     color: rgb(17, 0, 255);
 
+}
+@media (max-width: 961px){
+    .fonts-style{
+        font-size: 11px !important;
+    }
+
+}
+@media (max-width: 800px){
+    .fontss-style{
+        margin-top: 5px;
+        font-size: 11px !important;
+    }
+    .ma{
+        font-size: 14px !important;
+        margin-top: 15px;
+    }
+}
+@media (max-width: 646px){
+    .fonts-style{
+        font-size: 9px !important;
+    }
+    i{
+        display: none !important;
+    }
+}
+@media (max-width: 530px){
+    .ma{
+        font-size: 11px !important;
+    }
 }
