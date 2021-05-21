@@ -22,13 +22,13 @@
         <div class="row">
           <div class="col-6">
             <h6>Name</h6>
-            <input type="text" placeholder="Your Name"/>
+            <input type="text" placeholder="Your Name" class="input-style">
           </div>
           <div class="col-6">
             <h6>Gender</h6>
-            <button><i class="fa fa-mars"></i> Male</button>
-            <button><i class="fa fa-venus"></i> Female</button>
-            <button><i class="fa fa-transgender"></i> Others</button>
+            <button class="btn-style-one"><i class="fa fa-mars"></i> Male</button>
+            <button class="btn-style-one"><i class="fa fa-venus"></i> Female</button>
+            <button class="btn-style-one"><i class="fa fa-transgender"></i> Others</button>
           </div>
         </div>
       </div>
@@ -38,11 +38,15 @@
         <div class="row">
           <!-- <label for="cars">Choose a car:</label> -->
           <h6>Select your skill from the list</h6>
-          <select name="skill" id="skill">
-            <option value="Web Design">Web Design</option>
-            <option value="Accounting & Management">Accounting & Management</option>
-            <option value="Research">Research</option>
-          </select>
+        
+           <div class="container">
+            <select name="skill" id="skill">
+              <option value="Web Design">Web Design</option>
+              <option value="Accounting & Management">Accounting & Management</option>
+              <option value="Research">Research</option>
+            </select>
+           </div>
+         
         </div>
       </div>
     </section>
@@ -50,21 +54,21 @@
       <div class="container">
         <div class="row">
           <div class="col-6">
-            <h6 >Email Address <button style="float: right;">Set as User Id</button></h6>
-            <input type="text" placeholder="Email Address">
+            <h6 >Email Address <button style="float: right;" class="btn-style">Set as User Id</button></h6>
+            <input type="text" placeholder="Email Address"class="input-style">
           </div>
           <div class="col-6">
-            <h6 >Mobile Number <button style="float: right;">Set as User Id</button></h6>
+            <h6 >Mobile Number <button style="float: right;" class="btn-style">Set as User Id</button></h6>
             <div class="row">
               <div class="col-6">
-                <select name="no" id="no">
-                  <option value="+088">+088</option>
-                  <option value="+099">+099</option>
-                  <option value="+789">+789</option>
+                <select name="no" id="no" style="padding-bottom: 5px;">
+                  <option value="+088">  	&#160;	&#160;	&#160; 	&#160;  Bangladesh (88) 	&#160; 	&#160;	&#160;	&#160;  </option>
+                  <option value="+099">	&#160;	&#160;	&#160; 	&#160; India (99)	&#160;	&#160;	&#160; 	&#160; </option>
+                  <option value="+789">	&#160;	&#160;	&#160; 	&#160; USA (87)	&#160;	&#160;	&#160; 	&#160; </option>
                 </select>
               </div>
               <div class="col-6">
-                <input type="text" placeholder="Your phone number">
+                <input type="text" placeholder="Your phone number" class="input-style">
               </div>
             </div>
           </div>
@@ -73,11 +77,14 @@
     </section>
     <section>
       <div class="container">
-        <div class="row">
-          <h6>Password</h6>
+        <h6>Password</h6>
           <div class="row">
-            <div class="col-6"><input type="text" placeholder="Password"></div>
-            <div class="col-6"><input type="text" placeholder="Retype Password"></div>
+            <div class="col-lg-6">
+              <input type="text" placeholder="Your Name" class="input-style">
+            </div>
+            <div class="col-lg-6">
+              <input type="text" placeholder="Retype Password" class="input-style">
+            </div>
           </div>
         </div>
       </div>

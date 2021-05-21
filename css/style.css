@@ -3,6 +3,18 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
-.space{
-    white-space: nowrap;
+.btn-style{
+    border-radius: 15px;
+    border: 1px solid green;
+    background-color: white;
+}
+.input-style{
+    width: 100%;
+}
+.btn-style-one{
+    width: 32.5%;
+    border: 1px solid blue;
+    background-color: white;
+    color: rgb(17, 0, 255);
+
 }
